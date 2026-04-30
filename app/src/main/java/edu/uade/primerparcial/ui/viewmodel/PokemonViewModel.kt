@@ -1,8 +1,8 @@
-package edu.uade.primerparcial.ui
+package edu.uade.primerparcial.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
-import edu.uade.primerparcial.data.Pokemon
-import edu.uade.primerparcial.data.PokemonRepository
+import edu.uade.primerparcial.data.model.Pokemon
+import edu.uade.primerparcial.data.repository.PokemonRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
